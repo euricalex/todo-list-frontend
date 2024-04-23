@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+/* Скидання дефолтних стилів */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Скидання стилів списку */
+ul, ol {
+    list-style: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Скидання стилів текстових елементів */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Скидання стилів для посилань */
+a {
+    text-decoration: none;
+    color: inherit; /* Зберігання колірного значення батьківського елемента */
 }
 
-.App-link {
-  color: #61dafb;
+/* Зберігання додаткових стилів форми та кнопок */
+input, button, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Скидання стилів для таблиць */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+/* Скидання стилів для кнопок */
+button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
 }

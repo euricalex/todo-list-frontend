@@ -1,0 +1,26 @@
+.add-plus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px
+   
+}
+
+.add-plus> span {
+
+    font-size: 28px; /* Размер символа плюса */
+    color: white; /* Цвет символа плюса */
+    width: 40px; /* Ширина окружности */
+    height: 40px; /* Высота окружности */
+    line-height: 40px; /* Высота строки для центрирования символа */
+    text-align: center; /* Центрирование символа */
+    border-radius: 50%; /* Круглый кружок */
+    background-color: black; /* Цвет фона плюса */
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

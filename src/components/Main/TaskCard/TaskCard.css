@@ -1,0 +1,51 @@
+.task-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+  
+  .task-card {
+    background-color: black; /* Цвет фона плюса */
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 0 0 calc(33.333% - 16px); /* Для того, чтобы на больших экранах было три карточки в ряду */
+    margin-right: 16px; /* Добавим отступ между карточками */
+  }
+  
+  .task-card:last-child {
+    margin-right: 0; /* Убираем отступ справа у последней карточки в строке */
+  }
+  
+  .task-card h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+  }
+  
+  .task-card p {
+    margin: 0;
+  }
+.delete-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.delete-container-2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;  
+}
+
+  .delete-icon {
+color: red;
+font-size: 20px;
+  }
+  .edit-icon {
+    color: red;
+font-size: 20px;
+  }
+  
