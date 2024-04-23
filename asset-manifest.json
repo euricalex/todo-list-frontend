@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/euricalex/todo-list-frontend/static/css/main.3ac35018.css",
+    "main.js": "/euricalex/todo-list-frontend/static/js/main.8ca0b844.js",
+    "index.html": "/euricalex/todo-list-frontend/index.html",
+    "main.3ac35018.css.map": "/euricalex/todo-list-frontend/static/css/main.3ac35018.css.map",
+    "main.8ca0b844.js.map": "/euricalex/todo-list-frontend/static/js/main.8ca0b844.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ac35018.css",
+    "static/js/main.8ca0b844.js"
+  ]
+}
